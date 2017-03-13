@@ -204,6 +204,17 @@ public class PlayerTwoActivity extends AppCompatActivity implements AdapterView.
             displayWinner(playerOneBoolean);
             return true;
         }
+        else if (checkForTie(array)) {
+            playerTurnText.setText("Tie!!!");
+            buttonOne.setVisibility(View.INVISIBLE);
+            buttonTwo.setVisibility(View.INVISIBLE);
+            buttonThree.setVisibility(View.INVISIBLE);
+            buttonFour.setVisibility(View.INVISIBLE);
+            playerTurnText.setVisibility(View.VISIBLE);
+            questionText.setVisibility(View.INVISIBLE);
+            titleText.setVisibility(View.INVISIBLE);
+            return true;
+        }
         playerOneBoolean = !playerOneBoolean;
         return false;
     }
@@ -223,5 +234,8 @@ public class PlayerTwoActivity extends AppCompatActivity implements AdapterView.
         titleText.setVisibility(View.INVISIBLE);
     }
 
+    public boolean checkForTie(boolean[] array) {
+        return array.length - 1 == arrayValue;
+    }
 
 }
