@@ -119,4 +119,8 @@
     <string name="suddenPhaseText">Sudden Phase</string>
     <string name="categoriesText">Categories</string>
     <string name="titleText">Sudden Phase!</string>
+
+    <string name="phaseText">Phases Incurred: 0</string>
+    <string name="gameMode">3 Phaseout!</string>
+
 </resources>
