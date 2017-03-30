@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.main.PhaseoutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionText"
+        android:text="@string/questionText"
+        android:textSize="@dimen/questionTextSize"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonA"
+            android:layout_marginRight="5dp"
+            android:visibility="invisible"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonB"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonC"
+            android:layout_marginRight="5dp"
+            android:visibility="invisible"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonD"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phaseoutMode"
+        android:text="@string/gameMode"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phaseCountTextView"
+        android:text="@string/phaseText"
+        android:textSize="@dimen/questionTextSize"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:width="200dp"
+        android:text="@string/startButton"
+        android:id="@+id/startButton"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
