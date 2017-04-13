@@ -106,17 +106,17 @@
     <string name="about_teamMembers">Valentin Funk \nDaniel Hoogen \nChristian Kost \nLars Kahra \nThomas Stückel</string>
     <string name="title_about">Image and software licenses:</string>
     <string name="about_team_headline">Team ERGOHolics:</string>
-    <string name="playerOneText">Player 1 Score</string>
-    <string name="playerTwoText">Player 2 Score</string>
-    <string name="playerOneScore">0</string>
-    <string name="playerTwoScore">0</string>
-    <string name="questionText">This is a sample question on how it will look and its formatting</string>
-    <string name="PlayerTurnText">Player One\'s Turn</string>
-    <string name="startButton">START</string>
-    <string name="menuTitleText">Brain Phaser</string>
-    <string name="phaserAttackText">Phaser Attack</string>
-    <string name="phaseoutText">3 Phaseout</string>
-    <string name="suddenPhaseText">Sudden Phase</string>
-    <string name="categoriesText">Categories</string>
-    <string name="titleText">Sudden Phase!</string>
+    <string name="playerOneText" translatable="false">Player 1 Score</string>
+    <string name="playerTwoText" translatable="false">Player 2 Score</string>
+    <string name="playerOneScore" translatable="false">0</string>
+    <string name="playerTwoScore" translatable="false">0</string>
+    <string name="questionText" translatable="false">This is a sample question on how it will look and its formatting</string>
+    <string name="PlayerTurnText" translatable="false">Player One\'s Turn</string>
+    <string name="startButton" translatable="false">START</string>
+    <string name="menuTitleText" translatable="false">Brain Phaser</string>
+    <string name="phaserAttackText" translatable="false">Phaser Attack</string>
+    <string name="phaseoutText" translatable="false">3 Phaseout</string>
+    <string name="suddenPhaseText" translatable="false">Sudden Phase</string>
+    <string name="categoriesText" translatable="false">Categories</string>
+    <string name="titleText" translatable="false">Sudden Phase!</string>
 </resources>
