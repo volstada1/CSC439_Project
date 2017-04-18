@@ -113,5 +113,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.main.PhaseoutActivity"></activity>
+        <activity android:name=".activities.main.PhaserAttackActivity"></activity>
     </application>
 </manifest>
