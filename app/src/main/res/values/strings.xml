@@ -121,4 +121,12 @@
     <string name="titleText" translatable="false">Sudden Phase!</string>
     <string name="gameMode" translatable="false">3 Phaseout!</string>
     <string name="phaseText" translatable="false">Phases Incurred: 0</string>
+
+    <string name="game" translatable="false">Game Mode</string>
+    <string name="trivia" translatable="false">Trivia Category</string>
+    <string name="multi" translatable="false">Multi Choice</string>
+    <string name="instructionPhaseout" translatable="false">Each incorrect answer incurs a phase.  3 phases ends the game - try to answer as many questions correctly as possible
+        without incurring 3 phases.</string>
+    <string name="instructionSuddenPhase" translatable="false">Two player sudden death game mode.  An incorrect answer will result in a win for opposing player.</string>
+
 </resources>

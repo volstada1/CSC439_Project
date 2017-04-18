@@ -14,30 +14,52 @@
         android:gravity="center"
         android:textSize="40sp"
         android:layout_marginTop="30dp"
-        android:layout_marginBottom="60dp"/>
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/multiplechoice_button"/>
+
+    <ImageView
+        android:id="@+id/gameImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="20dp" />
+
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:id="@+id/phaserAttack"
-        android:text="@string/phaserAttackText"/>
+        android:text="@string/phaserAttackText"
+        android:background="@drawable/multiple_choice_toggle"
+        android:textColor="@color/multiplechoice_button"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:id="@+id/phaseout"
-        android:text="@string/phaseoutText"/>
+        android:text="@string/phaseoutText"
+        android:background="@drawable/multiple_choice_toggle"
+        android:textColor="@color/multiplechoice_button"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:id="@+id/suddenPhase"
-        android:text="@string/suddenPhaseText"/>
+        android:text="@string/suddenPhaseText"
+        android:background="@drawable/multiple_choice_toggle"
+        android:textColor="@color/multiplechoice_button"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:id="@+id/categories"
-        android:text="@string/categoriesText"/>
+        android:text="@string/categoriesText"
+        android:background="@drawable/multiple_choice_toggle"
+        android:textColor="@color/multiplechoice_button"/>
 
 </LinearLayout>

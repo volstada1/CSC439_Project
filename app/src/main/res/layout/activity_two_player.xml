@@ -6,16 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".activities.main.PlayerTwoActivity">
 
-    <TextView
+    <include layout="@layout/top_labels"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/questionText"
-        android:text="@string/questionText"
-        android:textSize="@dimen/questionTextSize"
-        android:gravity="center_horizontal"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="50dp"
-        android:visibility="invisible" />
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/instruction"
+            android:text="@string/instructionSuddenPhase"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/multiplechoice_button"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="-25dp"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/questionText"
+            android:text="@string/questionText"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/multiplechoice_button"
+            android:gravity="center_horizontal"
+            android:visibility="invisible"
+            android:layout_marginBottom="15dp"/>
+        </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,15 +47,20 @@
         android:gravity="center">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_width="0dip"
             android:id="@+id/buttonOne"
-            android:layout_marginRight="5dp"
+            android:background="@drawable/multiple_choice_toggle"
+            android:textColor="@color/multiplechoice_button"
             android:visibility="invisible"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_width="0dip"
             android:id="@+id/buttonTwo"
+            android:background="@drawable/multiple_choice_toggle"
+            android:textColor="@color/multiplechoice_button"
             android:visibility="invisible"/>
 
     </LinearLayout>
@@ -44,15 +72,20 @@
         android:gravity="center">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_width="0dip"
             android:id="@+id/buttonThree"
-            android:layout_marginRight="5dp"
+            android:background="@drawable/multiple_choice_toggle"
+            android:textColor="@color/multiplechoice_button"
             android:visibility="invisible"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_width="0dip"
             android:id="@+id/buttonFour"
+            android:background="@drawable/multiple_choice_toggle"
+            android:textColor="@color/multiplechoice_button"
             android:visibility="invisible"/>
 
     </LinearLayout>
@@ -63,7 +96,7 @@
         android:id="@+id/title"
         android:text="@string/titleText"
         android:gravity="center"
-        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:paddingBottom="10dp"
         />
 
@@ -72,7 +105,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/playerTurnTextView"
         android:text="@string/PlayerTurnText"
-        android:textSize="@dimen/questionTextSize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/multiplechoice_button"
         android:gravity="center"
         android:layout_marginBottom="20dp"
         android:visibility="invisible"/>
@@ -85,6 +119,8 @@
         android:text="@string/startButton"
         android:id="@+id/startButton"
         android:layout_gravity="center"
+        android:background="@drawable/multiple_choice_toggle"
+        android:textColor="@color/multiplechoice_button"
         />
 
 </LinearLayout>
