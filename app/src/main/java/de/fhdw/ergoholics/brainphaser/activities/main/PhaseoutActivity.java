@@ -9,12 +9,15 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class PhaseoutActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
 
     // Widgets
     private Button startButton;
     private TextView questionText;
     private TextView gameMode;
+    private TextView instruction;          ////////////////
     private TextView phaseCountText;
     private Button buttonA;
     private Button buttonB;
@@ -72,6 +75,8 @@ public class PhaseoutActivity extends AppCompatActivity implements AdapterView.O
         buttonB = (Button) findViewById(R.id.buttonB);
         buttonC = (Button) findViewById(R.id.buttonC);
         buttonD = (Button) findViewById(R.id.buttonD);
+
+        instruction = (TextView) findViewById(R.id.instruction);          ////////////////
 
         startButton.setOnClickListener(this);
         buttonA.setOnClickListener(this);
@@ -189,6 +194,7 @@ public class PhaseoutActivity extends AppCompatActivity implements AdapterView.O
     public void displayStart() {
         // Widget visibility updated
         gameMode.setVisibility(View.INVISIBLE);
+        instruction.setVisibility(View.INVISIBLE);          ////////////////
         questionText.setVisibility(View.VISIBLE);
         phaseCountText.setVisibility(View.VISIBLE);
         buttonA.setVisibility(View.VISIBLE);
