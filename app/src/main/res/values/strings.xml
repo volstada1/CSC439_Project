@@ -122,7 +122,6 @@
     <string name="gameMode" translatable="false">3 Phaseout!</string>
     <string name="phaserAttack" translatable="false">Phaser Attack!</string>
     <string name="phaseText" translatable="false">Phases Incurred: 0</string>
-    <string name="test" translatable="false">test</string>
 
     <string name="game" translatable="false">Game Mode</string>
     <string name="trivia" translatable="false">Trivia Category</string>
