@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <categories>
+
+        <category description="Complete the Song Lyrics" image="@drawable/international_trade" title="Trade">
+
+            <challenge question="I'm starting with the _________. I'm asking him to change his ways."
+                type="1">
+                <answer correct="false" text="light in your eyes" />
+                <answer correct="true" text="man in the mirror" />
+                <answer correct="false" text="pretty young thing" />
+                <answer correct="false" text="soul-searching man" />
+            </challenge>
+
+            <challenge question="I know that I can't take no more, it ain't no lie. I wanna see you out the door ________"
+                type="1">
+                <answer correct="true" text="Baby bye bye bye" />
+                <answer correct="false" text="Hello hi hi hi" />
+                <answer correct="false" text="Oh no hell no" />
+                <answer correct="false" text="Baby why why why" />
+            </challenge>
+
+            <challenge question="You make me feel like I'm living a _______ dream. The way you turn me on."
+                type="1">
+                <answer correct="false" text="one true" />
+                <answer correct="false" text="cloudy" />
+                <answer correct="true" text="teenage" />
+                <answer correct="false" text="colorful" />
+            </challenge>
+
+            <challenge question="I'm beautiful in my way 'cause God makes no mistakes. I'm on the right track baby I was_______"
+                type="1">
+                <answer correct="false" text="made like this" />
+                <answer correct="true" text="born this way" />
+                <answer correct="false" text="ready for this" />
+                <answer correct="false" text="created by Him" />
+            </challenge>
+
+            <challenge question="Just a _______ girl. Living in a lonely world. She took the midnight train going anywhere."
+                type="1">
+                <answer correct="false" text="city" />
+                <answer correct="false" text="pretty" />
+                <answer correct="false" text="big town" />
+                <answer correct="true" text="small town" />
+            </challenge>
+
+            <challenge question="I don't wanna close my eyes. I don't wanna fall asleep 'cause I'll miss you baby and I don't want to "
+                type="1">
+                <answer correct="true" text="miss a thing" />
+                <answer correct="false" text="forget this moment" />
+                <answer correct="false" text="relive this nightmare" />
+                <answer correct="false" text="slip away" />
+            </challenge>
+
+            <challenge question="I don't ever wanna feel like I did that day. But take me to the ______. Take me all the way."
+                type="1">
+                <answer correct="false" text="place over yonder" />
+                <answer correct="false" text="hidden space" />
+                <answer correct="true" text="place I love" />
+                <answer correct="false" text="dark passage" />
+            </challenge>
+
+            <challenge question="She's got it, yeah baby, she's got it. Well I'm your ______. I'm your fire. Your desire"
+                type="1">
+                <answer correct="false" text="Neptune" />
+                <answer correct="false" text="Pluto" />
+                <answer correct="false" text="Jupiter" />
+                <answer correct="true" text="Venus" />
+            </challenge>
+
+            <challenge question="Wish we could _____ to the good old days. When our momma sang us to sleep but now we're stressed out."
+                type="1">
+                <answer correct="false" text="reverse the clock" />
+                <answer correct="false" text="take the long road" />
+                <answer correct="true" text="turn back time" />
+                <answer correct="false" text="close our eyes" />
+            </challenge>
+
+            <challenge question="When I see your face, there's not a thing that I would change. 'Cause you're amazing ______ "
+                type="1">
+                <answer correct="true" text="just the way you are" />
+                <answer correct="false" text="the way God made you" />
+                <answer correct="false" text="we were meant to be together" />
+                <answer correct="false" text="there's no other like you" />
+            </challenge>
+
+            <challenge question="Summer has come and passed. The innocent can never last. Wake me up __________"
+                type="1">
+                <answer correct="false" text="when the leaves have fallen" />
+                <answer correct="true" text="when September ends" />
+                <answer correct="false" text="when it starts snowing" />
+                <answer correct="false" text="when the storm has ceased" />
+            </challenge>
+
+            <challenge question="I can feel it coming _________ tonight. Oh lord"
+                type="1">
+                <answer correct="false" text="on the wind" />
+                <answer correct="false" text="through the door" />
+                <answer correct="false" text="from the sky" />
+                <answer correct="true" text="in the air" />
+            </challenge>
+
+        </category>
+
+    </categories>
+
+</resources>
